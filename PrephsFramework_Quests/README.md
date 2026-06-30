@@ -16,6 +16,11 @@ Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframe
 * Simple editable list to add your own repeatable turnins
 * Pre-configured war effort turn-ins aswell as commedation signets for both Factions
 
+## How to use
+
+Avaiable commands are:
+
+* /pf
 
 ## Planned Features
 

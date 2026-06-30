@@ -36,6 +36,13 @@ Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframe
         *   AuraID (if avaiable)
         *   IconID
 
+## How to use
+
+Avaiable commands are:
+
+* /pf
+* /pf lips
+
 ## Planned Features
 
 *   none yet
