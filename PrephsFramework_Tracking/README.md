@@ -1,5 +1,7 @@
 A tracking addon that adds TBC flavored map tracking Pins to Classic, with SoD exclusive Pins objects.
 
+Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframeworkcore)
+
 <!-- START DEFINITION TOC -->
 # Table of Contents
 
@@ -40,4 +42,4 @@ A tracking addon that adds TBC flavored map tracking Pins to Classic, with SoD e
 
 ## Known bugs planned fixing
 
-*   none yet
+*   Minimap pins sometimes start to move with you on the minimap.

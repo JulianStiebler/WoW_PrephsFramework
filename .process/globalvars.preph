@@ -5,14 +5,14 @@ G_modulePrefix = "|cff3FC7EB <PrephsFramework>|r"
 G_projectMetadata = {
     "Core": {
         "title": "Core",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_Core",
 
         "## Interface": 11508,
         "## Author": "Prephmage",
-        "## Notes": "PrephsFramework Core components.",
+        "## Notes": "The main driver and dataset behind all of PrephFramework AddOns.",
         "## LoadOnDemand": 0,
         "## SavedVariables": "PrephsFrameworkDB",
         "## SavedVariablesPerCharacter": "PrephsFrameworkCharDataDB",
@@ -21,22 +21,22 @@ G_projectMetadata = {
     },
     "QoL": {
         "title": "Quality Of Life",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_QoL",
 
         "## Interface": 11508,
         "## Author": "Prephmage",
-        "## Notes": "Quality of Life improvements for World of Warcraft",
+        "## Notes": "A quality of life collection that makes youre life in Classic/Season of Discovery easier.",
         "## LoadOnDemand": 1,
         "## X-PrephsFramework-AlwaysLoad": 0
     },
     "Equipper": {
         "title": "Equipper",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_Equipper",
         "## SavedVariablesPerCharacter": "PFEquipperDB",
 
@@ -48,41 +48,41 @@ G_projectMetadata = {
     },
     "Tracking": {
         "title": "Tracking",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_Tracking",
         "## SavedVariablesPerCharacter": "PrephsFramework_TrackingDB",
 
         "## Interface": 11508,
         "## Author": "Prephmage",
-        "## Notes": "Fun tracking utils",
+        "## Notes": "A tracking addon that adds TBC flavored map tracking Pins to Classic, with SoD exclusive Pins objects.",
         "## LoadOnDemand": 1,
         "## X-PrephsFramework-AlwaysLoad": 0
     },
     "Quests": {
         "title": "Quests",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_Quests",
 
         "## Interface": 11508,
         "## Author": "Prephmage",
-        "## Notes": "Fun tracking utils",
+        "## Notes": "A simple addon making turning repeatable quests not as annoying.",
         "## LoadOnDemand": 1,
         "## X-PrephsFramework-AlwaysLoad": 0
     },
     "Tooltipper": {
         "title": "Tooltipper",
-        "major": 0,
+        "major": 1,
         "minor": 0,
-        "patch": 1,
+        "patch": 0,
         "path": "PrephsFramework_Tooltipper",
 
         "## Interface": 11508,
         "## Author": "Prephmage",
-        "## Notes": "Tooltip things",
+        "## Notes": "A tooltipper addon with cross-account functionality with main-focus on SoD, with some extra functionality that once existed in similar addons.",
         "## LoadOnDemand": 1,
         "## X-PrephsFramework-AlwaysLoad": 0
     },

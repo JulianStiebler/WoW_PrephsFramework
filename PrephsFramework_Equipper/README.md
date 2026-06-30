@@ -1,8 +1,12 @@
 Tired of performance issues, bugs, missing functionality, not appropiately remembering runes or enchants or a not classically integrated feel of GearManagers? TRY THIS! 
 
 <!-- START DEFINITION TOC -->
-<!-- END DEFINITION TOC -->
+# Table of Contents
 
+- [What it offers](#what-it-offers)
+- [Planned Features](#planned-features)
+- [Known bugs planned fixing](#known-bugs-planned-fixing)
+<!-- END DEFINITION TOC -->
 ## What it offers
 
 * Smoothly integrates into the Classic UI, orientated on the Retail Gear Manager

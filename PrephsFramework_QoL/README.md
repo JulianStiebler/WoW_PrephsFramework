@@ -1,5 +1,7 @@
 A quality of life collection that makes youre life in Classic/Season of Discovery easier.
 
+Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframeworkcore)
+
 <!-- START DEFINITION TOC -->
 # Table of Contents
 
@@ -8,8 +10,11 @@ A quality of life collection that makes youre life in Classic/Season of Discover
 - [Known bugs planned fixing](#known-bugs-planned-fixing)
 <!-- END DEFINITION TOC -->
 
+
+
 ## What it offers
 
+* Right click on a icon in profession window to set highlight color or search
 * Manipulate max camera distance
 * Clickable Chat Links
 * Auto Sell by quality or manually editable list

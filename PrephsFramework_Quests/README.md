@@ -1,5 +1,7 @@
 A simple addon making turning repeatable quests not as annoying.
 
+Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframeworkcore)
+
 <!-- START DEFINITION TOC -->
 # Table of Contents
 

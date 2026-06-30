@@ -1,5 +1,7 @@
 A tooltipper addon with cross-account functionality with main-focus on SoD, with some extra functionality that once existed in similar addons.
 
+Depends on my [Core Framework](https://www.curseforge.com/wow/addons/prephsframeworkcore)
+
 <!-- START DEFINITION TOC -->
 # Table of Contents
 

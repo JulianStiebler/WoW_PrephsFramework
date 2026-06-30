@@ -95,7 +95,8 @@ local OBJ_FLAG_CATEGORIES = {
 
 local playerFaction -- "A" or "H", set on load
 local FlattenedData = {} -- [mapID][catKey] = { {name, desc, x, y, faction}, ... }
-local pinPool = {}
+local mmPinPool = {}
+local wmPinPool = {}
 local activePins = { Minimap = {}, WorldMap = {} }
 
 -- ============================================================================
@@ -219,8 +220,10 @@ local function OnPinLeave(self)
     GameTooltip:Hide()
 end
 
-local function AcquirePin()
-    local pin = tremove(pinPool)
+local function AcquirePin(pinType)
+    local pool = (pinType == "Minimap") and mmPinPool or wmPinPool
+    local pin = tremove(pool)
+    
     if not pin then
         pin = CreateFrame("Frame", nil, nil)
         pin.texture = pin:CreateTexture(nil, "OVERLAY")
@@ -228,6 +231,8 @@ local function AcquirePin()
         pin:SetScript("OnEnter", OnPinEnter)
         pin:SetScript("OnLeave", OnPinLeave)
     end
+    
+    pin:ClearAllPoints() -- CRITICAL: Reset anchors before reuse!
     pin:Show()
     return pin
 end
@@ -238,12 +243,14 @@ local function ReleaseAllPins()
             for i = 1, #pins do
                 local pin = pins[i]
                 pin:Hide()
+                pin:ClearAllPoints()
                 if pinType == "Minimap" then
                     HBDPins:RemoveMinimapIcon(FEATURE_NAME, pin)
+                    mmPinPool[#mmPinPool + 1] = pin
                 else
                     HBDPins:RemoveWorldMapIcon(FEATURE_NAME, pin)
+                    wmPinPool[#wmPinPool + 1] = pin
                 end
-                pinPool[#pinPool + 1] = pin
             end
             wipe(pins)
         end
@@ -369,23 +376,27 @@ local function RemoveCategoryPins(catKey)
     local mmPins = activePins.Minimap[catKey]
     local wmPins = activePins.WorldMap[catKey]
 
-    if not mmPins and not wmPins then return end
-
-    local pinCount = mmPins and #mmPins or 0
-    for i = 1, pinCount do
-        local mPin = mmPins[i]
-        mPin:Hide()
-        HBDPins:RemoveMinimapIcon(FEATURE_NAME, mPin)
-        pinPool[#pinPool + 1] = mPin
-
-        local wPin = wmPins[i]
-        wPin:Hide()
-        HBDPins:RemoveWorldMapIcon(FEATURE_NAME, wPin)
-        pinPool[#pinPool + 1] = wPin
+    if mmPins then
+        for i = 1, #mmPins do
+            local mPin = mmPins[i]
+            mPin:Hide()
+            mPin:ClearAllPoints()
+            HBDPins:RemoveMinimapIcon(FEATURE_NAME, mPin)
+            mmPinPool[#mmPinPool + 1] = mPin
+        end
+        wipe(mmPins)
     end
 
-    if mmPins then wipe(mmPins) end
-    if wmPins then wipe(wmPins) end
+    if wmPins then
+        for i = 1, #wmPins do
+            local wPin = wmPins[i]
+            wPin:Hide()
+            wPin:ClearAllPoints()
+            HBDPins:RemoveWorldMapIcon(FEATURE_NAME, wPin)
+            wmPinPool[#wmPinPool + 1] = wPin
+        end
+        wipe(wmPins)
+    end
 end
 
 local function RefreshPins()

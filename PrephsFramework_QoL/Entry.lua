@@ -32,7 +32,6 @@ if not Core then
 end
 
 local MOD_ID = "Quality_Of_Life"
-local ME = ns.MailEnhancer
 local AS = ns.AutoSell
 
 local GetTime = GetTime
@@ -470,7 +469,6 @@ local QoLModule = {
                 },
             },
         },
-        EnhancedOpenAll = ME.feature,
         AutoSell = AS.feature,
         CraftingEnhancer = ns.CraftingEnhancer.feature,
     },
@@ -503,12 +501,6 @@ local QoLModule = {
                 ApplyCameraDistance()
             else
                 SetCVar("cameraDistanceMaxZoomFactor", 1.0)
-            end
-        elseif featureName == "EnhancedOpenAll" then
-            if enabled then
-                ME.Activate()
-            else
-                ME.Deactivate()
             end
         elseif featureName == "CraftingEnhancer" then
             if enabled then
