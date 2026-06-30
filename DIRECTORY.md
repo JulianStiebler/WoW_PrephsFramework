@@ -5,12 +5,13 @@ A comprehensive collection of folders and files.
 | 📂 Folder | 📊 File Count | 📑 Sub-Folders | 🗑️ Description |
 |-----------|---------------|----------------|----------------|
 | 📂 [.package](#.package) | 0 |  | Utility modules and helpers |
-| 📂 [PrephsFramework_Core](#prephsframework_core) | 31 | 2 | Utility modules and helpers |
+| 📂 [LibPrephLog-1.0](#libprephlog-1.0) | 1 |  | A lightweight, high-performance logging utility designed for World of Warcraft addons. Built on the standard `LibStub` system, this library embeds seamlessly into your addon tables to provide a robust, zero-overhead logging solution. |
+| 📂 [PrephsFramework_Core](#prephsframework_core) | 31 | 2 | PrephsFramework_Core is a modern, performance-first addon development framework for World of Warcraft that transforms complex addon development into "simple", declarative configuration. Define your features with clean data structures, and the framework handles everything else — from event management, UI generation in native Blizzard style, SavedVariables persistence with serialized strings, intelligent feature activation, and performance optimization. Build production-ready addons in minutes that integrate in a unified options menu with feature suppression based on user set conditions. |
+| 📂 [PrephsFramework_Equipper](#prephsframework_equipper) | 2 |  | - [What it offers](#what-it-offers) |
 | 📂 [PrephsFramework_QoL](#prephsframework_qol) | 5 |  | - [What it offers](#what-it-offers) |
 | 📂 [PrephsFramework_Quests](#prephsframework_quests) | 3 | 1 | - [What it offers](#what-it-offers) |
 | 📂 [PrephsFramework_Tooltipper](#prephsframework_tooltipper) | 4 |  | - [What it offers](#what-it-offers) |
 | 📂 [PrephsFramework_Tracking](#prephsframework_tracking) | 8 | 1 | - [What it offers](#what-it-offers) |
-| 📂 [PrepsFramework_Equipper](#prepsframework_equipper) | 2 |  | Utility modules and helpers |
 
 ## 🔍 Detailed Project Listing
 
@@ -19,8 +20,14 @@ A comprehensive collection of folders and files.
 
 
 --- 
+### 📂 [LibPrephLog-1.0](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/LibPrephLog-1.0)
+*A lightweight, high-performance logging utility designed for World of Warcraft addons. Built on the standard `LibStub` system, this library embeds seamlessly into your addon tables to provide a robust, zero-overhead logging solution.*
+
+- 📄 [`LibPrephLog-1.0.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/LibPrephLog-1.0/LibPrephLog-1.0.lua)
+
+--- 
 ### 📂 [PrephsFramework_Core](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core)
-*Utility modules and helpers*
+*PrephsFramework_Core is a modern, performance-first addon development framework for World of Warcraft that transforms complex addon development into "simple", declarative configuration. Define your features with clean data structures, and the framework handles everything else — from event management, UI generation in native Blizzard style, SavedVariables persistence with serialized strings, intelligent feature activation, and performance optimization. Build production-ready addons in minutes that integrate in a unified options menu with feature suppression based on user set conditions.*
 
 - 📄 [`Callbacks.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core/Callbacks.lua)
 - 📄 [`Closer.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core/Closer.lua)
@@ -55,6 +62,13 @@ A comprehensive collection of folders and files.
   - 📄 [`UI_InfoPage.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core/ui/UI_InfoPage.lua)
   - 📄 [`UI_MainFrame.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core/ui/UI_MainFrame.lua)
   - 📄 [`UI_ModulePages.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Core/ui/UI_ModulePages.lua)
+
+--- 
+### 📂 [PrephsFramework_Equipper](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Equipper)
+*- [What it offers](#what-it-offers)*
+
+- 📄 [`Module.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Equipper/Module.lua)
+- 📄 [`PrephsFramework_Equipper.toc`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Equipper/PrephsFramework_Equipper.toc)
 
 --- 
 ### 📂 [PrephsFramework_QoL](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_QoL)
@@ -97,12 +111,5 @@ A comprehensive collection of folders and files.
 - 📂 [`textures`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Tracking/textures)
   - 📄 [`grave.blp`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Tracking/textures/grave.blp)
   - 🖼️ [`grave.png`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrephsFramework_Tracking/textures/grave.png)
-
---- 
-### 📂 [PrepsFramework_Equipper](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrepsFramework_Equipper)
-*Utility modules and helpers*
-
-- 📄 [`Module.lua`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrepsFramework_Equipper/Module.lua)
-- 📄 [`PrephsFramework_Equipper.toc`](https://www.github.com/JulianStiebler/PrephsFramework/tree/main/PrepsFramework_Equipper/PrephsFramework_Equipper.toc)
 
 --- 

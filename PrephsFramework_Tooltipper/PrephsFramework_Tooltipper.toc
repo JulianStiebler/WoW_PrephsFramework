@@ -1,8 +1,8 @@
 ## Interface: 11508
 ## Title: |cff3FC7EB <PrephsFramework>|r Tooltipper
-## Version: 0.0.1
+## Version: 1.0.0
 ## Author: Prephmage
-## Notes: Tooltip things
+## Notes: A tooltipper addon with cross-account functionality with main-focus on SoD, with some extra functionality that once existed in similar addons.
 ## LoadOnDemand: 1
 ## DefaultState: Enabled
 ## Dependencies: PrephsFramework_Core

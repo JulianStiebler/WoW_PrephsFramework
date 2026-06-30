@@ -1,8 +1,8 @@
 ## Interface: 11508
 ## Title: |cff3FC7EB <PrephsFramework>|r Core
-## Version: 0.0.1
+## Version: 1.0.0
 ## Author: Prephmage
-## Notes: PrephsFramework Core components.
+## Notes: The main driver and dataset behind all of PrephFramework AddOns.
 ## LoadOnDemand: 0
 ## SavedVariables: PrephsFrameworkDB
 ## SavedVariablesPerCharacter: PrephsFrameworkCharDataDB

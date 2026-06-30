@@ -1,6 +1,6 @@
 --[[
     <PrephsFramework_Core/Profiling.lua>
-    Copyright (C) <2026> <JulianStiebler / Prephmage>
+    Copyright (C) <2026> <Prephmage / Prephalia>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
@@ -16,9 +16,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
     -- Additional Metadata --
-    Author:  <JulianStiebler / Prephmage>
-    Contact: <Discord: stiebulator>
-    GitHub: https://github.com/JulianStiebler/PrephsFramework
+    Author:  <Prephmage>
+    GitHub: https://github.com/JulianStiebler/WoW_PrephsFramework
 --]]
 ---@meta _
 local addonName, ns = ...

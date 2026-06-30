@@ -6,9 +6,9 @@ Runs each preprocessing task in order and reports a combined exit code.
 import sys
 
 from modules.config import Config, Report
-from preproc import (
+from script import (
     md_generateTableOfContents, md_syncAliases, md_generateDirectoryMD,
-    toc_syncGlobalData
+    toc_syncGlobalData, pkg_createZipFiles
 )
 
 
@@ -20,6 +20,7 @@ def main() -> int:
         "Generating DIRECTORY.md",
         "Syncing aliases into README files",
         "Syncing module metadata into .toc files",
+        "Packaging folders into .package/"
     ])
 
     report.step("Generating Table of Contents")
@@ -34,7 +35,10 @@ def main() -> int:
     report.step("Syncing module metadata into .toc files")
     report.result("parseDataIntoTocs", toc_syncGlobalData())
 
-    return report.stop("All pre-processing steps completed successfully")
+    report.step("Packaging folders into .package/")
+    report.result("packageFolders", pkg_createZipFiles())
+
+    return report.stop("All processing steps completed successfully")
 
 
 if __name__ == "__main__":

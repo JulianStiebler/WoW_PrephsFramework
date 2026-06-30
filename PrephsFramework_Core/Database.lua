@@ -1,6 +1,6 @@
 --[[
     <PrephsFramework_Core/Database.lua>
-    Copyright (C) <2026> <JulianStiebler / Prephmage>
+    Copyright (C) <2026> <Prephmage>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
@@ -16,9 +16,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
     -- Additional Metadata --
-    Author:  <JulianStiebler / Prephmage>
-    Contact: <Discord: stiebulator>
-    GitHub: https://github.com/JulianStiebler/PrephsFramework
+    Author:  <Prephmage>
 --]]
 ---@meta _
 local addonName, ns = ...

@@ -5,7 +5,7 @@ Tired of performance issues, bugs, missing functionality, not appropiately remem
 
 - [What it offers](#what-it-offers)
 - [Planned Features](#planned-features)
-- [Known bugs planned fixing](#known-bugs-planned-fixing)
+- [Known Bugs pending Fixing](#known-bugs-pending-fixing)
 <!-- END DEFINITION TOC -->
 ## What it offers
 

@@ -1,8 +1,8 @@
 ## Interface: 11508
 ## Title: |cff3FC7EB <PrephsFramework>|r Tracking
-## Version: 0.0.1
+## Version: 1.0.0
 ## Author: Prephmage
-## Notes: Fun tracking utils
+## Notes: A tracking addon that adds TBC flavored map tracking Pins to Classic, with SoD exclusive Pins objects.
 ## LoadOnDemand: 1
 ## DefaultState: Enabled
 ## Dependencies: PrephsFramework_Core

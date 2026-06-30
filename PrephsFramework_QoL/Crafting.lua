@@ -1,6 +1,6 @@
 --[[
     <PrephsFramework_QoL/CraftingEnhancer.lua>
-    Copyright (C) <2026> <JulianStiebler / Prephmage>
+    Copyright (C) <2026> <Prephmage / Prephalia>
     License: GNU Affero General Public License v3
 --]]
 ---@meta _

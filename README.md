@@ -1,19 +1,21 @@
-# PrephsFramework
+# PrephsFramework_Core
 
-PrephsFramework is a modern, performance-first addon development framework for World of Warcraft that transforms complex addon development into simple, declarative configuration. Define your features with clean data structures, and the framework handles everything else — from event management, UI generation in native Blizzard style, SavedVariables persistence with serialized strings, intelligent feature activation, and performance optimization. Build production-ready addons in minutes that integrate in a unified options menu with feature suppression based on user set conditions. 
-
+PrephsFramework_Core is a modern, performance-first addon development framework for World of Warcraft that transforms complex addon development into "simple", declarative configuration. Define your features with clean data structures, and the framework handles everything else — from event management, UI generation in native Blizzard style, SavedVariables persistence with serialized strings, intelligent feature activation, and performance optimization. Build production-ready addons in minutes that integrate in a unified options menu with feature suppression based on user set conditions. 
 
 
 <!-- START DEFINITION TOC -->
 # Table of Contents
 
+- [Standalone this will not do much, so check these:](#standalone-this-will-not-do-much-so-check-these)
 - [🙏 Credits](#credits)
 <!-- END DEFINITION TOC -->
 
----
+## Standalone this will not do much, so check these:
 
-
----
+* [Quality of Life Module](https://www.curseforge.com/wow/addons/prephsframework-qol)
+* [Quest Module](https://www.curseforge.com/wow/addons/prephsframework-quests)
+* [Tooltipper Module](https://www.curseforge.com/wow/addons/prephsframework-tooltipper)
+* [Tracking Module](https://www.curseforge.com/wow/addons/prephsframework-tracking)
 
 ## 🙏 Credits
 
@@ -24,8 +26,3 @@ PrephsFramework is a modern, performance-first addon development framework for W
 - [LibButtonGlow](https://www.curseforge.com/wow/addons/libbuttonglow-1-0) - Button Glow API
 - [LibDeflate]
 - [LibSharedMedia]
-
-
-<!-- START CONTENT {{BADGES}} -->
-![version_supp1](https://img.shields.io/badge/WoW-1.15%2B-blue?style=flat-square)
-<!-- END CONTENT {{BADGES}} -->

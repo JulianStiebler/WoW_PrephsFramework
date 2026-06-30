@@ -1,8 +1,8 @@
 ## Interface: 11508
 ## Title: |cff3FC7EB <PrephsFramework>|r Quality Of Life
-## Version: 0.0.1
+## Version: 1.0.0
 ## Author: Prephmage
-## Notes: Quality of Life improvements for World of Warcraft
+## Notes: A quality of life collection that makes youre life in Classic/Season of Discovery easier.
 ## LoadOnDemand: 1
 ## DefaultState: Enabled
 ## Dependencies: PrephsFramework_Core
