@@ -1,0 +1,13 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r MapUtility
+## Notes: Simple map utilitys.
+## Author: Prephmage
+## Version: 1
+## X-SAO-Build: vanilla
+## SavedVariables: QuickMapDB
+
+libs\HereBeDragons\LibStub\LibStub.lua
+libs\HereBeDragons\HereBeDragons-2.0.lua
+libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
+Pins.lua
+Module.lua

@@ -1,0 +1,10 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework> SessionLootTracker |r
+## Notes: Start and stop sessions, browse between past ones, see total values from AH and if not avaiable Vendor and see many other session related stats like how often you regged, deaths, individual pull Counts etc.
+## Author: Prephmage
+## Version: 1
+## SavedVariables: PrephsFrameworkSessionLootDB
+## X-SAO-Build: vanilla
+## OptionalDeps: Auctionator
+
+core.lua

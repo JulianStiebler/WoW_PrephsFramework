@@ -1,0 +1,14 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r SharedMedia
+## Notes: Registers shared media.
+## Author: Prephmage
+## Version: 1
+## X-SAO-Build: vanilla
+
+## LoadOnDemand: 1
+## RequiredDeps: PrephsFramework_Core
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+embeds.xml
+Module.lua

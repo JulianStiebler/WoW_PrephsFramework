@@ -1,0 +1,16 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Quality Of Life
+## Version: 0.0.1
+## Author: Prephmage
+## Notes: Quality of Life improvements for World of Warcraft
+## LoadOnDemand: 1
+## DefaultState: Enabled
+## Dependencies: PrephsFramework_Core
+## X-PrephsFramework-AlwaysLoad: 0
+## X-PrephsFramework-ModuleID: Quality Of Life
+
+MailEnhancer.lua
+AutoSell.lua
+Crafting.lua
+Entry.lua
+

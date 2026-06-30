@@ -1,0 +1,13 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Quests
+## Version: 0.0.1
+## Author: Prephmage
+## Notes: Fun tracking utils
+## LoadOnDemand: 1
+## DefaultState: Enabled
+## Dependencies: PrephsFramework_Core
+## X-PrephsFramework-AlwaysLoad: 0
+## X-PrephsFramework-ModuleID: Quests
+
+data/predefinedQuests.lua
+Entry.lua

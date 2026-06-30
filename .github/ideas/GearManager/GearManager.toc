@@ -1,0 +1,7 @@
+## Interface: 11508
+## Title: GearManager
+## Notes: Custom Gear Manager for WoW Classic.
+## SavedVariables: GearManagerSets
+## Author: Gemini
+
+GearManager.lua

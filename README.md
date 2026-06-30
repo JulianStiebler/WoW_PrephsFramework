@@ -1,0 +1,31 @@
+# PrephsFramework
+
+PrephsFramework is a modern, performance-first addon development framework for World of Warcraft that transforms complex addon development into simple, declarative configuration. Define your features with clean data structures, and the framework handles everything else — from event management, UI generation in native Blizzard style, SavedVariables persistence with serialized strings, intelligent feature activation, and performance optimization. Build production-ready addons in minutes that integrate in a unified options menu with feature suppression based on user set conditions. 
+
+
+
+<!-- START DEFINITION TOC -->
+# Table of Contents
+
+- [🙏 Credits](#credits)
+<!-- END DEFINITION TOC -->
+
+---
+
+
+---
+
+## 🙏 Credits
+
+**Built With:**
+- [LibStub](https://www.wowace.com/projects/libstub) - Library management standard
+- [CallbackHandler-1.0](https://www.wowace.com/projects/callbackhandler) - Event dispatching system
+- [HereBeDragons](https://www.curseforge.com/wow/addons/herebedragons) - Coordinate and mapping systems
+- [LibButtonGlow](https://www.curseforge.com/wow/addons/libbuttonglow-1-0) - Button Glow API
+- [LibDeflate]
+- [LibSharedMedia]
+
+
+<!-- START CONTENT {{BADGES}} -->
+![version_supp1](https://img.shields.io/badge/WoW-1.15%2B-blue?style=flat-square)
+<!-- END CONTENT {{BADGES}} -->

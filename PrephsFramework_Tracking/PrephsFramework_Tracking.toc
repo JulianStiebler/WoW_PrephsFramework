@@ -1,0 +1,17 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Tracking
+## Version: 0.0.1
+## Author: Prephmage
+## Notes: Fun tracking utils
+## LoadOnDemand: 1
+## DefaultState: Enabled
+## Dependencies: PrephsFramework_Core
+## SavedVariablesPerCharacter: PrephsFramework_TrackingDB
+## X-PrephsFramework-AlwaysLoad: 0
+## X-PrephsFramework-ModuleID: Tracking
+
+
+Entry.lua
+LipTracker.lua
+WorldTrackingPins.lua
+Closer.lua

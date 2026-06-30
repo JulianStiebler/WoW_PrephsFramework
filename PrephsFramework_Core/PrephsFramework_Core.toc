@@ -1,0 +1,54 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Core
+## Version: 0.0.1
+## Author: Prephmage
+## Notes: PrephsFramework Core components.
+## LoadOnDemand: 0
+## SavedVariables: PrephsFrameworkDB
+## SavedVariablesPerCharacter: PrephsFrameworkCharDataDB
+## X-SAO-Build: vanilla
+
+# Libraries
+libs/LibStub/LibStub.lua
+libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+libs/HereBeDragons/HereBeDragons-2.0.lua
+libs/HereBeDragons/HereBeDragons-Pins-2.0.lua
+libs/LibDeflate/LibDeflate.lua
+Logging.lua
+
+# Base Files
+Entry.lua
+Utility.lua
+Serializer.lua
+Profiling.lua
+data/constants.lua
+data/charData.lua
+data/mapData.lua
+data/questData.lua
+data/npcData.lua
+data/objectData.lua
+data/weeklyQuests.lua
+data/dailyQuests.lua
+data/profCD.lua
+
+Database.lua
+CoreAPI.lua
+
+# Core Files
+Module.lua
+Events.lua
+State.lua
+Indexer.lua
+Callbacks.lua
+FeatureManager.lua
+CommLink.lua
+Closer.lua
+
+
+# UI Files
+ui/UI_Factory.lua
+ui/UI_InfoPage.lua
+ui/UI_GeneralSettings.lua
+ui/UI_ModulePages.lua
+ui/UI_MainFrame.lua
+ui/UI_CustomFrame.lua

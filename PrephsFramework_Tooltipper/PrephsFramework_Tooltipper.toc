@@ -1,0 +1,14 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Tooltipper
+## Version: 0.0.1
+## Author: Prephmage
+## Notes: Tooltip things
+## LoadOnDemand: 1
+## DefaultState: Enabled
+## Dependencies: PrephsFramework_Core
+## X-PrephsFramework-AlwaysLoad: 0
+## X-PrephsFramework-ModuleID: Tooltipper
+
+Entry.lua
+Connections.lua
+Closer.lua

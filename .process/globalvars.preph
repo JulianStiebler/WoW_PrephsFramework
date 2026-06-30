@@ -1,0 +1,90 @@
+G_projectName = "PrephsFramework"
+G_projectAuthor = "JulianStiebler"
+
+G_modulePrefix = "|cff3FC7EB <PrephsFramework>|r"
+G_projectMetadata = {
+    "Core": {
+        "title": "Core",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_Core",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "PrephsFramework Core components.",
+        "## LoadOnDemand": 0,
+        "## SavedVariables": "PrephsFrameworkDB",
+        "## SavedVariablesPerCharacter": "PrephsFrameworkCharDataDB",
+
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+    "QoL": {
+        "title": "Quality Of Life",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_QoL",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "Quality of Life improvements for World of Warcraft",
+        "## LoadOnDemand": 1,
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+    "Equipper": {
+        "title": "Equipper",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_Equipper",
+        "## SavedVariablesPerCharacter": "PFEquipperDB",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "Retail like gear snapshotter and gear manager for World of Warcraft",
+        "## LoadOnDemand": 0,
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+    "Tracking": {
+        "title": "Tracking",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_Tracking",
+        "## SavedVariablesPerCharacter": "PrephsFramework_TrackingDB",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "Fun tracking utils",
+        "## LoadOnDemand": 1,
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+    "Quests": {
+        "title": "Quests",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_Quests",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "Fun tracking utils",
+        "## LoadOnDemand": 1,
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+    "Tooltipper": {
+        "title": "Tooltipper",
+        "major": 0,
+        "minor": 0,
+        "patch": 1,
+        "path": "PrephsFramework_Tooltipper",
+
+        "## Interface": 11508,
+        "## Author": "Prephmage",
+        "## Notes": "Tooltip things",
+        "## LoadOnDemand": 1,
+        "## X-PrephsFramework-AlwaysLoad": 0
+    },
+
+}

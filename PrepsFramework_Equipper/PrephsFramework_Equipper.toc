@@ -1,0 +1,8 @@
+## Interface: 11508
+## Title: |cff3FC7EB <PrephsFramework>|r Equipper
+## Version: 1
+## Author: Prephmage-WildGrowth
+## Notes: Retail like gear snapshotter and gear manager for World of Warcraft
+## SavedVariablesPerCharacter: PFEquipperDB
+
+Module.lua
